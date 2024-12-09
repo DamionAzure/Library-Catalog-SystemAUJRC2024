@@ -1,0 +1,39 @@
+.body {
+  background-color: aliceblue;
+}
+
+.title {
+  font-family:'Helvetica Neue';
+  font-size: 34px;
+  padding-left: 16%;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #000000;
+  padding: 6px;
+  border-radius: 5px;
+  background-color: aliceblue;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#search-bar {
+  flex: 1; /* Make the search bar take up most of the space */
+  max-width: 250px; /* Adjust the maximum width as needed */
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+#search-button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: aqua;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
